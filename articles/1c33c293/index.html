@@ -28,7 +28,7 @@
 <meta property="og:description" content="记录网站的一些个性化设置">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-03-27T13:17:59.000Z">
-<meta property="article:modified_time" content="2024-03-28T02:30:39.234Z">
+<meta property="article:modified_time" content="2024-04-01T13:04:01.797Z">
 <meta property="article:author" content="竹杖芒鞋">
 <meta property="article:tag" content="Configs">
 <meta name="twitter:card" content="summary">
@@ -122,7 +122,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">5</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">6</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -132,7 +132,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">5</span></a>
 
   </li>
         <li class="menu-item menu-item-about">
@@ -225,7 +225,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-03-28 10:30:39" itemprop="dateModified" datetime="2024-03-28T10:30:39+08:00">2024-03-28</time>
+                <time title="Modified: 2024-04-01 21:04:01" itemprop="dateModified" datetime="2024-04-01T21:04:01+08:00">2024-04-01</time>
               </span>
 
           <br>
@@ -234,7 +234,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>983</span>
+              <span>1k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
@@ -256,36 +256,26 @@
         <div class="note primary no-icon">
             <p>记录网站的一些个性化设置</p>
           </div>
-
 <span id="more"></span>
-
 <h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="网站主题"><a href="#网站主题" class="headerlink" title="网站主题"></a>网站主题</h2><p>Next-theme：<a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">Next-theme</a></p>
 <h2 id="Next-theme-配置"><a href="#Next-theme-配置" class="headerlink" title="Next-theme 配置"></a>Next-theme 配置</h2><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><ul>
 <li>中文：系统默认</li>
 <li>段落中英文：Times New Roman</li>
-<li>代码英文：Menlo</li>
-</ul>
-<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3><ul>
+<li>代码英文：Menlo<h3 id="字体大小"><a href="#字体大小" class="headerlink" title="字体大小"></a>字体大小</h3></li>
 <li>网站标题：1.5rem</li>
 <li>H1：1.8em</li>
-<li>其他：1em</li>
-</ul>
-<h3 id="scheme"><a href="#scheme" class="headerlink" title="scheme"></a>scheme</h3><p>Pisces</p>
-<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><ul>
+<li>其他：1em<h3 id="scheme"><a href="#scheme" class="headerlink" title="scheme"></a>scheme</h3>Pisces<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3></li>
 <li>高亮主题：night eighties</li>
-<li>style：mac</li>
-</ul>
-<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><div class="note success no-icon">
+<li>style：mac<h3 id="永久链接"><a href="#永久链接" class="headerlink" title="永久链接"></a>永久链接</h3><div class="note success no-icon">
             <p>目的是为了减少<code>/</code>个数（提高网站权重）和避免中文字符转码后过长的问题</p>
           </div>
-<p>安装包之后需要在next和主目录中的<code>_config.yml</code>修改相关配置</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
-
+安装包之后需要在next和主目录中的<code>_config.yml</code>修改相关配置<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <figure class="highlight java"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">quicklink:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  home: <span class="literal">true</span></span><br><span class="line">  archive: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
 <figure class="highlight java"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"># permalink: :year/:month/:day/:title/</span><br><span class="line">permalink: articles/:abbrlink/</span><br><span class="line">permalink_defaults:</span><br><span class="line">pretty_urls:</span><br><span class="line">  trailing_index: <span class="literal">false</span></span><br><span class="line">  trailing_html: <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support <span class="title function_">crc16</span><span class="params">(<span class="keyword">default</span>)</span> and crc32 进制</span><br><span class="line">  rep: hex        #support <span class="title function_">dec</span><span class="params">(<span class="keyword">default</span>)</span> and hex  算法</span><br><span class="line">  drafts: <span class="literal">false</span>   #(<span class="literal">true</span>)Process draft,(<span class="literal">false</span>)Do not process draft. <span class="literal">false</span>(<span class="keyword">default</span>) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; <span class="number">0</span></span><br><span class="line">  auto_category:</span><br><span class="line">     enable: <span class="literal">true</span>  #<span class="literal">true</span>(<span class="keyword">default</span>)</span><br><span class="line">     depth:        #<span class="number">3</span>(<span class="keyword">default</span>)</span><br><span class="line">     over_write: <span class="literal">false</span> </span><br><span class="line">  auto_title: <span class="literal">false</span> #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: <span class="literal">false</span> #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: <span class="literal">false</span> </span><br></pre></td></tr></table></figure>
-
 <hr>
+<h3 id="LaTex数学公式"><a href="#LaTex数学公式" class="headerlink" title="LaTex数学公式"></a>LaTex数学公式</h3><p>需要在 Front-matter 区域添加<code>mathjax: true</code></p>
 
     </div>
 
@@ -369,7 +359,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E7%AB%99%E4%B8%BB%E9%A2%98"><span class="nav-number">1.1.</span> <span class="nav-text">网站主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next-theme-%E9%85%8D%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">Next-theme 配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93"><span class="nav-number">1.2.1.</span> <span class="nav-text">字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F"><span class="nav-number">1.2.2.</span> <span class="nav-text">字体大小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scheme"><span class="nav-number">1.2.3.</span> <span class="nav-text">scheme</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">1.2.4.</span> <span class="nav-text">代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5"><span class="nav-number">1.2.5.</span> <span class="nav-text">永久链接</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E7%AB%99%E4%B8%BB%E9%A2%98"><span class="nav-number">1.1.</span> <span class="nav-text">网站主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next-theme-%E9%85%8D%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">Next-theme 配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93"><span class="nav-number">1.2.1.</span> <span class="nav-text">字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F"><span class="nav-number">1.2.2.</span> <span class="nav-text">字体大小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scheme"><span class="nav-number">1.2.3.</span> <span class="nav-text">scheme</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">1.2.4.</span> <span class="nav-text">代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5"><span class="nav-number">1.2.5.</span> <span class="nav-text">永久链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#LaTex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">1.2.6.</span> <span class="nav-text">LaTex数学公式</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -383,7 +373,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -396,7 +386,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -440,12 +430,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">12k</span>
+    <span title="Symbols count total">15k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">11 mins.</span>
+    <span title="Reading time total">14 mins.</span>
 </div>
 
         
